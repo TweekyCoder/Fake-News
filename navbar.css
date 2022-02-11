@@ -3,7 +3,7 @@
 nav {
 	display: flex;
 	align-items: center;
-	position:fixed;
+	position: fixed;
 
 	flex-direction: wrap;
 
@@ -14,7 +14,8 @@ nav {
 
 }
 
-.link, .logo {
+.link,
+.logo {
 	width: min-content;
 	height: 100%;
 
@@ -86,9 +87,9 @@ nav {
 
 	margin-bottom: 5px;
 
-	margin:20px;
+	margin: 20px;
 
-	text-align:center;
+	text-align: center;
 }
 
 .moreLink {
@@ -98,7 +99,7 @@ nav {
 
 	margin-bottom: 10px;
 
-	margin-top:10px;
+	margin-top: 10px;
 
 	text-align: left;
 }

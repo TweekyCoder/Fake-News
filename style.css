@@ -1,128 +1,130 @@
-*{
-    margin:0px;
-    padding:0px;
-	box-sizing: border-box;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
 
-body{
-    background-color:#f4f4f4;
+body {
+    background-color: #f4f4f4;
 
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 
-	flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 
-.main, .title{
-    align-items:center;
-    text-align:center; 
-    margin:20px;
+.main,
+.title {
+    align-items: center;
+    text-align: center;
+    margin: 20px;
 }
 
-.section{
-    margin:40px;
-    background-color:white;
-    padding:20px;
+.section {
+    margin: 40px;
+    background-color: white;
+    padding: 20px;
 }
 
 .section img {
-    display:flex;
-    align-items:center;
-    margin:20px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
 }
 
-.title{
-    font-size:40px;
-    padding-top:30px;
+.title {
+    font-size: 40px;
+    padding-top: 80px;
 }
 
-.subtitle{
-    font-size:30px;
+.subtitle {
+    font-size: 30px;
 }
 
-.talk{
-    font-size:20px;
+.talk {
+    font-size: 20px;
 }
 
 .center {
-	width: 100%;
+    width: 100%;
 
-	display: flex;
-	justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 ::-webkit-scrollbar {
-  	width: 10px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  	background: #f1f1f1; 
+    background: #f1f1f1;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  	background: #888; 
+    background: #888;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  	background: #555; 
+    background: #555;
 }
 
-.li{
-    list-style-type:square;
-    margin:10px;
+.li {
+    list-style-type: square;
+    margin: 10px;
 }
 
-.bold{
+.bold {
     font-weight: bolder;
 }
 
-a{
+a {
     text-decoration: none;
 
 }
 
-.first{
-    display:flex;
+.first {
+    display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
 
 
-.rorf{
+.rorf {
     font-size: 30px;
-    padding:20px;
-    width:20%;
-    background-color:red;
-    display:flex;
+    padding: 20px;
+    width: 20%;
+    background-color: red;
+    display: flex;
     justify-content: center;
-    border-radius:10px;
-    
-    margin:20px;
+    border-radius: 10px;
+
+    margin: 20px;
 }
 
-.post{
+.post {
     /*display:flex;*/
     align-items: center;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
-.post, .subtitle{
-    font-family:sans-serif;
+.post,
+.subtitle {
+    font-family: sans-serif;
 }
 
-.post img{
+.post img {
     border-radius: 100%;
 }
 
-.postcontainer{
-    width:50px;
+.postcontainer {
+    width: 50px;
 }
 
-b{
-    font-weight:bolder;
-    text-decoration:underline;
+b {
+    font-weight: bolder;
+    text-decoration: underline;
 }
