@@ -46,6 +46,8 @@ body {
 
 .talk {
     font-size: 20px;
+
+    width: 60%;
 }
 
 .center {
@@ -103,12 +105,15 @@ a {
     border-radius: 10px;
 
     margin: 20px;
+    margin-left: 40%;
 }
 
 .post {
     /*display:flex;*/
     align-items: center;
     font-family: sans-serif;
+
+    width: 50%;
 }
 
 .post,
@@ -121,7 +126,11 @@ a {
 }
 
 .postcontainer {
-    width: 50px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 b {
