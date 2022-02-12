@@ -155,6 +155,14 @@ a {
     padding-bottom:10px;
 }
 
+.left{
+    align-items: left;
+    display:flex;
+    justify-content: left;
+    text-align:left;
+    flex-direction: column;
+}
+
 
 b {
     font-weight: bolder;
