@@ -15,6 +15,12 @@ body {
     flex-wrap: wrap;
 }
 
+.main{
+    justify-content:center;
+    display:flex;
+    flex-direction: column;
+}
+
 
 .main,
 .title {
@@ -46,8 +52,11 @@ body {
 
 .talk {
     font-size: 20px;
-
-    width: 60%;
+    text-align: center;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    width: 100%;
 }
 
 .center {
@@ -132,6 +141,20 @@ a {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.authpost{
+    background-color: white;
+    width:90%;
+    display:flex;
+    text-align:center;
+    align-items:center;
+    justify-content: center;
+}
+
+.authpost,img{
+    padding-bottom:10px;
+}
+
 
 b {
     font-weight: bolder;
