@@ -144,6 +144,10 @@ ol{
     transform: scale(1.2);
 }
 
+.post .talk{
+    width:70%;
+}
+
 .postcontainer {
     width: 100%;
 
