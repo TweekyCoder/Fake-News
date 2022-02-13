@@ -36,7 +36,7 @@ more.appendChild(moreTitle);
 
 //<i class="fas fa-fingerprint"></i>
 
-var linkNames = ['<i class="fas fa-home"></i> Home', '<i class="fas fa-fingerprint"></i>  Identification', '<i class="fas fa-video"></i> Example Videos', '&nbsp', '<i class="fas fa-question-circle"></i> FAQ', '<i class="fas fa-list"></i> Credits','&nbsp', '©CoderBaba 2022'];
+var linkNames = ['<i class="fas fa-home"></i> Home', '<i class="fas fa-fingerprint"></i>  Identification', '<i class="fas fa-video"></i> Example Videos', '&nbsp', '<i class="fas fa-question-circle"></i> FAQ', '<i class="fas fa-list"></i> Credits','&nbsp', '©Designed & Created By J.S. 2022'];
 var linkSrcs = ["index.html", "identification.html", "vids.html", "identification.html", "faq.html", "credits.html" , "#", "#"];
 
 for (i = 0; i < linkNames.length; i++) {
