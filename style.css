@@ -140,6 +140,11 @@ ol{
     transition: all 0.3s ease-in-out;
 }
 
+blockquote{
+    z-index: 0;
+}
+
+
 .post img:hover{
     transform: scale(1.2);
 }
