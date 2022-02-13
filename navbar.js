@@ -13,7 +13,7 @@ logoImg.classList.add("logoImg");
 logoImg.src = "images/logo.jpeg"
 linkAnchor.appendChild(logoImg);
 
-var logo = "bars";
+var logoName = "bars";
 
 logo.appendChild(linkAnchor);
 
@@ -60,11 +60,11 @@ document.querySelector(".moreBtn").addEventListener("click", function () {
 });
 
 document.querySelector(".moreBtn").addEventListener("click", function (){
-	if (logo == "bars"){
+	if (logoName == "bars"){
 		document.querySelector(".moreBtn").innerHTML = '<i class="fas fa-times"></i>';
-		logo = "cross";
+		logoName = "cross";
 	} else {
 		document.querySelector(".moreBtn").innerHTML = '<i class="fas fa-bars"></i>';
-		logo = "bars";
+		logoName = "bars";
 	}
 });
