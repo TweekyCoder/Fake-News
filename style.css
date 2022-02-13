@@ -194,3 +194,8 @@ b {
 .darker{
     background-color:rgb(211, 211, 211);
 }
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
