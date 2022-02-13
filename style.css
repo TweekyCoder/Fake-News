@@ -114,10 +114,11 @@ ol{
     background-color: red;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-radius: 10px;
+    color:darkred;
 
     margin: 20px;
-    margin-left: 40%;
 }
 
 .post {
