@@ -199,3 +199,7 @@ b {
     display: flex;
     flex-direction: column;
 }
+
+.space, .talk{
+    margin-bottom: 20px;
+}
