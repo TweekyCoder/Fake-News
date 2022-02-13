@@ -37,7 +37,7 @@ more.appendChild(moreTitle);
 //<i class="fas fa-fingerprint"></i>
 
 var linkNames = ['<i class="fas fa-home"></i> Home', '<i class="fas fa-fingerprint"></i>  Identification', '<i class="fas fa-video"></i> Example Videos', '&nbsp', '<i class="fas fa-question-circle"></i> FAQ', '<i class="fas fa-list"></i> Credits'];
-var linkSrcs = ["index.html", "identification.html", "vids.html", "identification.html", "FAQ.html", "credits.html"];
+var linkSrcs = ["index.html", "identification.html", "vids.html", "identification.html", "FAQs.html", "credits.html"];
 
 for (i = 0; i < linkNames.length; i++) {
 	var link = document.createElement("div");
