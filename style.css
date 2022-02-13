@@ -124,8 +124,10 @@ ol{
     display:flex;
     align-items: center;
     font-family: sans-serif;
+    flex-direction: column;
+    justify-content: center;
 
-    width: 50%;
+    width: 100%;
 }
 
 .post,
@@ -134,7 +136,12 @@ ol{
 }
 
 .post img {
-    border-radius: 100%;
+    border-radius: 0%;
+    transition: ;
+}
+
+.post img:hover{
+    transform: scale(1.2);
 }
 
 .postcontainer {
@@ -147,7 +154,7 @@ ol{
 
 .authpost{
     background-color: white;
-    width:90%;
+    width:100%;
     display:flex;
     flex-direction: row;
     text-align:center;
