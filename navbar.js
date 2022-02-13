@@ -37,7 +37,7 @@ more.appendChild(moreTitle);
 //<i class="fas fa-fingerprint"></i>
 
 var linkNames = ['<i class="fas fa-home"></i> Home', '<i class="fas fa-fingerprint"></i>  Identification', '<i class="fas fa-video"></i> Example Videos', '&nbsp', '<i class="fas fa-question-circle"></i> FAQ', '<i class="fas fa-list"></i> Credits'];
-var linkSrcs = ["index.html", "identification.html", "vids.html", "identification.html", "FAQs.html", "credits.html"];
+var linkSrcs = ["index.html", "identification.html", "vids.html", "identification.html", "faq.html", "credits.html"];
 
 for (i = 0; i < linkNames.length; i++) {
 	var link = document.createElement("div");
@@ -59,8 +59,8 @@ document.querySelector(".moreBtn").addEventListener("click", function () {
 	document.querySelector(".moreContainer").classList.toggle("show");
 });
 
-document.querySelector(".moreBtn").addEventListener("click", function (){
-	if (logoName == "bars"){
+document.querySelector(".moreBtn").addEventListener("click", function () {
+	if (logoName == "bars") {
 		document.querySelector(".moreBtn").innerHTML = '<i class="fas fa-times"></i>';
 		logoName = "cross";
 	} else {
@@ -68,3 +68,21 @@ document.querySelector(".moreBtn").addEventListener("click", function (){
 		logoName = "bars";
 	}
 });
+
+function unScroll() {
+	window.scrollTo(0, 0);
+}
+
+var wait = window.setTimeout(function () {
+	document.querySelector(".overlay").style.display = "block";
+	document.querySelector(".popup").style.display = "block";
+
+	window.addEventListener("scroll", unScroll);
+
+	document.querySelector(".popupClose").addEventListener("click", function () {
+		document.querySelector(".overlay").style.display = "none";
+		document.querySelector(".popup").style.display = "none";
+
+		window.removeEventListener("scroll", unScroll);
+	});
+}, 8000);

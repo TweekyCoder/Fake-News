@@ -123,3 +123,73 @@ a:hover{
 
 	text-align: left;
 }
+
+.overlay {
+	position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 900;
+}
+
+.popup {
+	display: none;
+    position: absolute;
+    width: 25%;
+	height: min-content;
+	background-color: rgb(236, 236, 236);
+    padding: 30px;
+
+	border-radius: 20px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 901;
+}
+
+.popupContent {
+	text-align: center;
+}
+
+.popupContentTitle {
+	font-size: 26px;
+
+	font-weight: bold;
+
+	margin-bottom: 5px;
+}
+
+.popupContentText {
+	font-size: 18px;
+}
+
+.popupClose {
+	position: absolute;
+
+	top: -20px;
+	right: -20px;
+
+	background-color: inherit;
+
+	width: 40px;
+	height: 40px;
+
+	border-radius: 20px;
+
+	font-size: 22px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	cursor: pointer;
+}
+
+.popupClose:hover {
+	background: rgb(208, 208, 208);
+}
