@@ -137,7 +137,7 @@ ol{
 
 .post img {
     border-radius: 0%;
-    transition: ;
+    transition: all 0.3s ease-in-out;
 }
 
 .post img:hover{
