@@ -13,6 +13,8 @@ logoImg.classList.add("logoImg");
 logoImg.src = "images/logo.jpeg"
 linkAnchor.appendChild(logoImg);
 
+var logo = "bars";
+
 logo.appendChild(linkAnchor);
 
 nav.appendChild(logo);
@@ -55,4 +57,14 @@ nav.appendChild(more);
 
 document.querySelector(".moreBtn").addEventListener("click", function () {
 	document.querySelector(".moreContainer").classList.toggle("show");
+});
+
+document.querySelector(".moreBtn").addEventListener("click", function (){
+	if (logo == "bars"){
+		document.querySelector(".moreBtn").innerHTML = '<i class="fas fa-times"></i>';
+		logo = "cross";
+	} else {
+		document.querySelector(".moreBtn").innerHTML = '<i class="fas fa-bars"></i>';
+		logo = "bars";
+	}
 });
